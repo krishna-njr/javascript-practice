@@ -41,7 +41,7 @@ greet.call(person2);
 
 // this : inside arrow function : 
 
-this.name = "arrow-function"; 
+this.name = "arrow-function"; // global object : 
 let person3 = {
     name: "wick", 
     sayHello: () => {
